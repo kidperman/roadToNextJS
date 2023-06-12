@@ -1,0 +1,58 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "dependencies": {
+        "@next/font": "13.4.5"
+      }
+    },
+    "prefix": "C:\\Users\\frank"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": true,
+    "storeDir": "C:\\Users\\frank\\AppData\\Local\\pnpm\\store\\v3",
+    "virtualStoreDir": "C:\\Users\\frank\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "C:\\Users\\frank",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@next/font/13.4.5",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@next/font",
+      "rawSpec": "13.4.5"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@next/font/13.4.5",
+    "requester": "C:\\Users\\frank",
+    "status": "found_in_store"
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@next/font/13.4.5",
+    "requester": "C:\\Users\\frank",
+    "status": "resolved"
+  },
+  "7 error pnpm": {
+    "shortMessage": "Command failed with exit code 128: C:\\Program Files\\Git\\cmd\\git.EXE ls-remote git+ssh://git@github.com/next/image.git HEAD",
+    "command": "C:\\Program Files\\Git\\cmd\\git.EXE ls-remote git+ssh://git@github.com/next/image.git HEAD",
+    "escapedCommand": "\"C:\\Program Files\\Git\\cmd\\git.EXE\" ls-remote \"git+ssh://git@github.com/next/image.git\" HEAD",
+    "exitCode": 128,
+    "stdout": "",
+    "stderr": "Host key verification failed.\r\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.",
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "Command failed with exit code 128: C:\\Program Files\\Git\\cmd\\git.EXE ls-remote git+ssh://git@github.com/next/image.git HEAD\nHost key verification failed.\r\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.",
+      "stack": "pnpm: Command failed with exit code 128: C:\\Program Files\\Git\\cmd\\git.EXE ls-remote git+ssh://git@github.com/next/image.git HEAD\nHost key verification failed.\r\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.\n    at makeError (C:\\Users\\frank\\.node\\corepack\\pnpm\\7.5.0\\dist\\pnpm.cjs:22159:17)\n    at handlePromise (C:\\Users\\frank\\.node\\corepack\\pnpm\\7.5.0\\dist\\pnpm.cjs:22730:33)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async getRepoRefs (C:\\Users\\frank\\.node\\corepack\\pnpm\\7.5.0\\dist\\pnpm.cjs:84913:23)\n    at async resolveRef (C:\\Users\\frank\\.node\\corepack\\pnpm\\7.5.0\\dist\\pnpm.cjs:84925:20)\n    at async resolveGit (C:\\Users\\frank\\.node\\corepack\\pnpm\\7.5.0\\dist\\pnpm.cjs:84876:24)\n    at async Object.resolve (C:\\Users\\frank\\.node\\corepack\\pnpm\\7.5.0\\dist\\pnpm.cjs:86031:162)\n    at async run (C:\\Users\\frank\\.node\\corepack\\pnpm\\7.5.0\\dist\\pnpm.cjs:92979:23)"
+    }
+  }
+}
